@@ -1,0 +1,14 @@
+git init
+git status
+git add . 
+git commit -a -m "some msg"
+git push -u origin master 
+
+git log {to check past commits}
+git diff filename (compare staging are file vs Local repo file)
+git checkout filename (give previous file version)
+
+git remote add origin <link of repo>
+
+
+

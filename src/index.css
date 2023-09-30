@@ -4,9 +4,87 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: auto;
+  align-items: center;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+button {
+  all: unset;
+  height: 32px;
+  width: 90px;
+  text-align: center;
+  background: var(--red);
+  color: white;
+  padding: 6px 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.Hero {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.Hero h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+
+.Hero p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 404px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.category-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 2px solid var(--gray);
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.buy-icons {
+  display: flex;
+  gap: 16px;
 }
